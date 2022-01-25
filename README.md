@@ -22,6 +22,8 @@ function checkPhone() {
 }
 //4.邮箱验证
 var pattern = /^([A-Za-z0-9_\-\.\u4e00-\u9fa5])+\@([A-Za-z0-9_\-\.])+\.([A-Za-z]{2,8})$/;
+//邮箱正则表达式
+this.emailReg = /^\w+([-+.]\w+)*@\w+([-.]\w+)*\.\w+([-.]\w+)*$/;
 
 //排除数组里是否含有某个键值对 有就删除 没有就添加
 // var trackObj1 = {
